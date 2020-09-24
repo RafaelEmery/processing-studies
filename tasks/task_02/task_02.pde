@@ -1,7 +1,7 @@
 void setup() {
   size(800, 500);
   background(255, 255, 255);
-  surface.setTitle("Task 01 - Building");
+  surface.setTitle("Task 02 - Building");
 }
 
 void draw() {
