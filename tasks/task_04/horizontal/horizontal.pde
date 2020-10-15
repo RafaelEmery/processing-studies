@@ -1,6 +1,6 @@
 PImage image, invertedImage;
 
-//Defining the las x coordinates
+//Defining the last x coordinates
 int xFinal;
   
 void setup() {

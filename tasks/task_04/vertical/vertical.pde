@@ -1,6 +1,6 @@
 PImage image, invertedImage;
 
-//Defining the las y coordinates
+//Defining the last y coordinates
 int yFinal;
  
 void setup() {
