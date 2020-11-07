@@ -6,4 +6,4 @@
 
 ## Fun Fact
 
-:globe_with_meridians: I use the VS Code to code some Processing stuffs. Much better! You check how it happens by [clicking here](https://github.com/TobiahZ/processing-vscode).
+:globe_with_meridians: I use the VS Code to code some Processing stuffs. Much better! You can check how it happens by [clicking here](https://github.com/TobiahZ/processing-vscode).
