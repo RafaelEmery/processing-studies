@@ -1,0 +1,57 @@
+void setup() {
+    size(800, 500, P3D);
+    background(255, 255, 255);
+    surface.setTitle("Task 08 - Building with lights");
+}
+
+void draw() {
+    lights();
+    background(135, 206, 235);
+
+    //Building
+    fill(230, 0, 0);
+    rect(200, 200, 260, 300);
+
+    //Roof
+    fill(0, 0, 200);
+    triangle(200, 200, 460, 200, 330, 50);
+
+    //Door
+    fill(160, 82, 45); 
+    rect(360, 420, 80, 120);
+    fill(0);
+    line(400, 420, 400, 500);
+
+    //Windows
+    fill(255,255,51);
+    rect(240, 420, 80, 50);
+    fill(0);
+    line(280, 420, 280, 470);
+
+    fill(255,255,51);
+    rect(240, 330, 80, 50);
+    fill(0);
+    line(280, 330, 280, 380);
+
+    fill(0);
+    rect(240, 240, 80, 50);
+
+    fill(255,255,51);
+    rect(360, 330, 80, 50);
+    fill(0);
+    line(400, 330, 400, 380);
+
+    fill(0);
+    rect(360, 240, 80, 50);
+   
+    //Tree
+    fill(160, 82, 45); 
+    rect(500, 420, 25, 80); 
+
+    fill(0, 245, 0);
+    ellipse(513, 346, 50, 150);
+
+    if ((mouseX > 0 && mouseX < 100) && (mouseY > 0 && mouseY < 100)) {
+        
+    }
+}
